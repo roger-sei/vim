@@ -22,6 +22,8 @@ docker run --rm -ti --name vim -v=$PWD:/data rogersei/vim vim .
 - altercation/vim-colors-solarized
 
 ### Build instructions
+```sh
 docker build -t rogersei/vim .
 docker tag rogersei/vim:latest rogersei/vim:latest
 docker push rogersei/vim:latest
+```
